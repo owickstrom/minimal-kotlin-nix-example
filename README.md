@@ -28,7 +28,7 @@ update-locks
 ## Build
 
 To build with Nix, run:
-```bash
+
 ```bash
 nix build
 ```
