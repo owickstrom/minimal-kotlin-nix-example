@@ -19,7 +19,7 @@
             pkgs.gradle_8
             pkgs.temurin-bin-21
             updateLocks
-            pkgs.kotlin-language-server
+            pkgs.ktlint
           ];
         };
         packages.default = pkgs.callPackage ./build.nix { };

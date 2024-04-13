@@ -10,7 +10,8 @@ buildscript {
                     gradleMetadata()
                 }
             }
-        } ?: run { mavenCentral() }
+        }
+            ?: run { mavenCentral() }
     }
 }
 
@@ -24,7 +25,8 @@ allprojects {
                     gradleMetadata()
                 }
             }
-        } ?: run { mavenCentral() }
+        }
+            ?: run { mavenCentral() }
     }
 }
 
@@ -46,7 +48,5 @@ dependencies {
 tasks.test { useJUnitPlatform() }
 
 tasks.withType<KotlinCompile> { kotlinOptions.jvmTarget = "21" }
-
-application { mainClass.set("MainKt") }
 
 application { mainClass.set("MainKt") }

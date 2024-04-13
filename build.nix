@@ -1,4 +1,4 @@
-{ lib, stdenv, jdk, gradle_8, callPackage }:
+{ lib, stdenv, jdk, gradle_8, ktlint, callPackage }:
 let
   buildMavenRepo = callPackage ./maven-repo.nix { };
 
@@ -17,7 +17,7 @@ in stdenv.mkDerivation {
 
   src = ./.;
 
-  nativeBuildInputs = [ gradle_8 ];
+  nativeBuildInputs = [ gradle_8 ktlint ];
 
   JDK_HOME = "${jdk.home}";
 
@@ -35,6 +35,7 @@ in stdenv.mkDerivation {
   doCheck = true;
   checkPhase = ''
     runHook preCheck
+    ktlint src/**/*.kt
     export GRADLE_USER_HOME=$TMP/gradle-home
     export NIX_MAVEN_REPO=${mavenRepo}
     gradle check \

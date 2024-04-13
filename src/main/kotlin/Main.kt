@@ -1,3 +1,1 @@
-fun main() {
-  println(greet())
-}
+fun main() = println(greet())
