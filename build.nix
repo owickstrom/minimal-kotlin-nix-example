@@ -26,7 +26,7 @@ in stdenv.mkDerivation {
     export GRADLE_USER_HOME=$TMP/gradle-home
     export NIX_MAVEN_REPO=${mavenRepo}
     gradle build -x test \
-      --offline --no-daemon --no-build-cache --info --full-stacktrace \
+      --offline --no-daemon \
       --warning-mode=all --parallel --console=plain \
       -PnixMavenRepo=${mavenRepo}
     runHook postBuild
@@ -38,7 +38,7 @@ in stdenv.mkDerivation {
     export GRADLE_USER_HOME=$TMP/gradle-home
     export NIX_MAVEN_REPO=${mavenRepo}
     gradle check \
-      --offline --no-daemon --info --full-stacktrace \
+      --offline --no-daemon \
       --warning-mode=all --parallel --console=plain \
       -PnixMavenRepo=${mavenRepo}
     runHook postCheck
