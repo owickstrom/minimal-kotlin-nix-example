@@ -1,11 +1,282 @@
 [
   {
+    "group": "com.github.ajalt",
+    "name": "colormath",
+    "version": "1.2.0",
+    "artifacts": {
+      "colormath-1.2.0.jar": "86a51f7dbb32abe410d54331ec61ac0684a543b24ee97967bbac0a4e6729f031",
+      "colormath-1.2.0.pom": "6b710a8d0a10bbe3e05795ef7f4deec778fd79005b0c1bc0e5c17801ee6bdd9d"
+    }
+  },
+  {
+    "group": "com.github.ajalt",
+    "name": "mordant",
+    "version": "1.2.1",
+    "artifacts": {
+      "mordant-1.2.1.jar": "7a714eb8d25b4d9ba7f256a54c7559cca87d85ec90d6943df1913cad43db95d6",
+      "mordant-1.2.1.pom": "f032dc57f8079c1f5626fbc5f0f65fcf5e12340de272d829b0b54e92979a72ba"
+    }
+  },
+  {
+    "group": "io.github.classgraph",
+    "name": "classgraph",
+    "version": "4.8.162",
+    "artifacts": {
+      "classgraph-4.8.162.jar": "ea30b2d5e29e89d52706bcecf7a6ae3b44682d4a1566a5f22b9453f9be2a970c",
+      "classgraph-4.8.162.pom": "492c69908c3b682a635d8ca9d909b9b42c8245a34eb7b9e7b7dc671521d9b307"
+    }
+  },
+  {
+    "group": "io.github.java-diff-utils",
+    "name": "java-diff-utils",
+    "version": "4.12",
+    "artifacts": {
+      "java-diff-utils-4.12.jar": "9990a2039778f6b4cc94790141c2868864eacee0620c6c459451121a901cd5b5",
+      "java-diff-utils-4.12.pom": "c26e097edc8ec6805d1319817d23d4e496cc1015cc55dc5202112d8f6a9165fc"
+    }
+  },
+  {
+    "group": "io.github.java-diff-utils",
+    "name": "java-diff-utils-parent",
+    "version": "4.12",
+    "artifacts": {
+      "java-diff-utils-parent-4.12.pom": "d811cf9f118cc2cad130c9427ad55c174d4c0a6f1a00ac1ae1c9bcbec5c44b19"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-assertions-api",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-assertions-api-5.8.0.module": "a29f68c9a7639bff188f147cbef8671eb8f0b58fe5bae180b6455db77df9728b",
+      "kotest-assertions-api-metadata-5.8.0.jar": "5f0b74cb292e7b731ab92f5257edfcca0d902541998871e09354bffee9391bf1"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-assertions-api-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-assertions-api-jvm-5.8.0.jar": "24e5429f8de994056147f4e4198f03bc1b37303b2e4e2bad81a5c388f5fe8d21",
+      "kotest-assertions-api-jvm-5.8.0.module": "0ebcc607ee9b3226ab5c162fc1bc25dc928d7be4b9889077c08e753267bb8c1a"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-assertions-core",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-assertions-core-5.8.0.module": "dcf4167b7e67b090039fa009b5260a4710e5d4d5678595f2cf5eb73cc35f8cab",
+      "kotest-assertions-core-metadata-5.8.0.jar": "9e2e06073a5329d2999b4c6004967e3a9efc39cc203108b95c7c2b52ceba3a7d"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-assertions-core-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-assertions-core-jvm-5.8.0.jar": "c2c94547fb1521a4820d0e2e17eaa4b903c368edea78fe2e1ffad143abacf61c",
+      "kotest-assertions-core-jvm-5.8.0.module": "e5f3f67e1fc08fe6008a631df77f32814ecc0b6b9fdccb73656af4ac1164c91f"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-assertions-shared",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-assertions-shared-5.8.0.module": "072bd3276684c9ab673268e35e546255231f593e54e61a350d97c0c9961771f2",
+      "kotest-assertions-shared-metadata-5.8.0.jar": "4325fc011e36ecaa64c8dcd1568e97841a827c1a85bf28dc30f7606fe2ea8974"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-assertions-shared-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-assertions-shared-jvm-5.8.0.jar": "f959ffd72d8a739c54f2e09017f8003d25f4468de853a52c20ffb2930d5354c1",
+      "kotest-assertions-shared-jvm-5.8.0.module": "74ae18111f43524c174ecad6c4acfde4a3044685dffebc898783275d911fb66d"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-common",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-common-5.8.0.module": "070c0947134b35e8cd63d166a4629ed0a10b92b371e57612ec0e3f93f4c64374",
+      "kotest-common-metadata-5.8.0.jar": "6bd4202edb89e59eb54352745bd0e1fbc95c54d5d3305b98f92132404f07ae42"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-common-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-common-jvm-5.8.0.jar": "f7e713bba225fba5879741665a3b6193fa528bc27be54752a7763808a4f29513",
+      "kotest-common-jvm-5.8.0.module": "17a9b67077bc7650efaf69df4c2d99e69766958ec96160b9122ce6c610bac7fc"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-extensions",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-extensions-5.8.0.module": "c1127d3610a13e7b6532d84765bb211cf3f21c901aec7ecfa181bac20edc17a8"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-extensions-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-extensions-jvm-5.8.0.jar": "b7b649b01ab0b50c7f855721b1cd90ceb93b7ec790c9e0d454eacd89f1822c31",
+      "kotest-extensions-jvm-5.8.0.module": "c2957c40db030704c3c1c450463450fd421f515d9e4dfd70158ae0953c7bb392"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-framework-api",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-framework-api-5.8.0.module": "4d4fb8d9f31995c1135138923f739076d28c6c8ba78e86ecb79e925533659bcb"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-framework-api-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-framework-api-jvm-5.8.0.jar": "ab32b248767a8fcdee96a3a7debc1d4bca15b4107d03a8f0ecb43f0a12a66078",
+      "kotest-framework-api-jvm-5.8.0.module": "fbc00241e6bfa4f07663ed64f995917046acdddd2873ca5da59b4cb8c1a6731f"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-framework-concurrency",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-framework-concurrency-5.8.0.module": "0299bbac9f9db2d3447d0dc1d230fa79db87a4441d8158eef3bea2e43c86538a"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-framework-concurrency-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-framework-concurrency-jvm-5.8.0.jar": "fa3562b9b7a17d10886d955915980506683e6d4253fda2d9a610c707b6a1c534",
+      "kotest-framework-concurrency-jvm-5.8.0.module": "104751977214edb45b6d0e505f5731f0f2c4481644dad49d640935ee68d3eac0"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-framework-discovery",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-framework-discovery-5.8.0.module": "5684839a75fcf0c8e82bb37bd41a7f44172de8c5b4d0d7ba517beb2a6f902ce8"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-framework-discovery-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-framework-discovery-jvm-5.8.0.jar": "9605cc7df0a678ac760168151d1e0c1cae4a60b5c7e1ab9f0c83fdd24d18d508",
+      "kotest-framework-discovery-jvm-5.8.0.module": "cec6c001e9f892e9b0a1593b5532b079e1198cfeebc17e03ec187ad0ce1e47b7"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-framework-engine",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-framework-engine-5.8.0.module": "4b0200a44a3d0bc155bce4599adf3f4cc786b7c1dcaaf34dd45920675bbde4ae"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-framework-engine-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-framework-engine-jvm-5.8.0.jar": "b4ef5f3a8ee3d2f72b9a70835bc78bbd63362b57bd49c729cfdc99b882c8229f",
+      "kotest-framework-engine-jvm-5.8.0.module": "a46a10b00a994f5cfeefb9d5d10343097499d05b127076d56630b92c3dd1d76c"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-runner-junit5",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-runner-junit5-5.8.0.module": "cb8c0b79cca41bf1a82313a59efe7e10ec0363ac67957381746c0fb87977a139",
+      "kotest-runner-junit5-metadata-5.8.0.jar": "19895b13bd40d94c56b453fa03865203a8077398718e118b4c2dec54457fff5e"
+    }
+  },
+  {
+    "group": "io.kotest",
+    "name": "kotest-runner-junit5-jvm",
+    "version": "5.8.0",
+    "artifacts": {
+      "kotest-runner-junit5-jvm-5.8.0.jar": "b12cfe724d51390a53cbac8ea20146780984efdbdc79a6bd0a5d739dc4aae7f9",
+      "kotest-runner-junit5-jvm-5.8.0.module": "e356005a5a933c8e58058c41fb7c3a30d7dcf3cfe8a3ea6f72c798291e76b5ff"
+    }
+  },
+  {
+    "group": "net.bytebuddy",
+    "name": "byte-buddy",
+    "version": "1.10.9",
+    "artifacts": {
+      "byte-buddy-1.10.9.jar": "07b9ca6e2f970cb03f4b25651df1f2fce271d491b44e0409827887786f692d4d",
+      "byte-buddy-1.10.9.pom": "40881d4948a871159346270f36945bc29025577c6cb57f6a5dd0c7c222069dac"
+    }
+  },
+  {
+    "group": "net.bytebuddy",
+    "name": "byte-buddy-agent",
+    "version": "1.10.9",
+    "artifacts": {
+      "byte-buddy-agent-1.10.9.jar": "fbd052d2d4cd16f707547c468621c6b7fb842c7ec8866d012ecbc6178de1f394",
+      "byte-buddy-agent-1.10.9.pom": "19907495fbc1c2316c8ebad76f07b96d101feb1a7e3c09bfe1526fd3fc6eec9d"
+    }
+  },
+  {
+    "group": "net.bytebuddy",
+    "name": "byte-buddy-parent",
+    "version": "1.10.9",
+    "artifacts": {
+      "byte-buddy-parent-1.10.9.pom": "93d9d380779cd1768c52b4bcee82cbfaedef9a4a30de87ae06b441e1634fd38c"
+    }
+  },
+  {
+    "group": "net.java.dev.jna",
+    "name": "jna",
+    "version": "5.9.0",
+    "artifacts": {
+      "jna-5.9.0.jar": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161",
+      "jna-5.9.0.pom": "6bc8b8459150b59e9598f3dad9ad245a1ef2150d082581017184eb163e592829"
+    }
+  },
+  {
+    "group": "net.java.dev.jna",
+    "name": "jna-platform",
+    "version": "5.9.0",
+    "artifacts": {
+      "jna-platform-5.9.0.jar": "1903bc6d87f3ab92023957b91f45a9c8eb3515bad030356ce977201e5141b724",
+      "jna-platform-5.9.0.pom": "0bda5d98e4be9261f09cdfaee6fa245988790834d7fcadc8e2fdd93c7d641825"
+    }
+  },
+  {
     "group": "org.apiguardian",
     "name": "apiguardian-api",
     "version": "1.1.0",
     "artifacts": {
-      "apiguardian-api-1.1.0.jar": "a9aae9ff8ae3e17a2a18f79175e82b16267c246fbbd3ca9dfbbb290b08dcfdd4",
       "apiguardian-api-1.1.0.pom": "a945b9cb5cd9b77b2c711844e659c43ec070ef59d9f509fa9f4c1861b4862711"
+    }
+  },
+  {
+    "group": "org.apiguardian",
+    "name": "apiguardian-api",
+    "version": "1.1.2",
+    "artifacts": {
+      "apiguardian-api-1.1.2.jar": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38",
+      "apiguardian-api-1.1.2.module": "e08028131375b357d1d28734e9a4fb4216da84b240641cb3ef7e7c7d628223fc"
     }
   },
   {
@@ -15,6 +286,15 @@
     "artifacts": {
       "annotations-13.0.jar": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
       "annotations-13.0.pom": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+    }
+  },
+  {
+    "group": "org.jetbrains",
+    "name": "annotations",
+    "version": "23.0.0",
+    "artifacts": {
+      "annotations-23.0.0.jar": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05",
+      "annotations-23.0.0.pom": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c"
     }
   },
   {
@@ -208,6 +488,15 @@
   },
   {
     "group": "org.jetbrains.kotlin",
+    "name": "kotlin-reflect",
+    "version": "1.8.10",
+    "artifacts": {
+      "kotlin-reflect-1.8.10.jar": "99672410459045090d062a0194ed87008e2371f06946b6bfa7287c697f924bea",
+      "kotlin-reflect-1.8.10.pom": "8530d0707113ea20bf6f4f1562119a31bce760a56910ac155f16cae818997d17"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
     "name": "kotlin-script-runtime",
     "version": "1.9.23",
     "artifacts": {
@@ -259,6 +548,48 @@
       "kotlin-stdlib-1.9.23-all.jar": "cec38bc3302e72a8aaf9cde436b5a9071ee0331e2ad05e84d8bb897334d7e9d4",
       "kotlin-stdlib-1.9.23.jar": "8910cc238807d86ef550cb1f0b10dd5ed40b35a4ec1a52525f760aede84ead37",
       "kotlin-stdlib-1.9.23.module": "5195193b37dcdada2e1c0ab0d512c422b2ad76af3557843a1b9c3480f4e71d0e"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-common",
+    "version": "1.9.23",
+    "artifacts": {
+      "kotlin-stdlib-common-1.9.23.module": "8639f005fa9977aef08c32fc8e7a2779da22ee262464d7273298aafd483715cd"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk7",
+    "version": "1.8.10",
+    "artifacts": {
+      "kotlin-stdlib-jdk7-1.8.10.pom": "09b86d8d60f80ee0bbc80fd36b419d8d9a640facedc104d1e8d4c4deb87024fa"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk7",
+    "version": "1.8.20",
+    "artifacts": {
+      "kotlin-stdlib-jdk7-1.8.20.jar": "af1ec40c3b951afdcc0c2a0173c7b81763c5281c2d5bafbf0a8544a24c5dcc0c",
+      "kotlin-stdlib-jdk7-1.8.20.pom": "3622d106578cddcc0a9ec20f8ce815f7f49ff542f640228d2141fcaf80616b06"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk8",
+    "version": "1.8.10",
+    "artifacts": {
+      "kotlin-stdlib-jdk8-1.8.10.pom": "caa25facba14d4c3e81908056900f7d214421157aabd4fd1d65df6e734eb30bf"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk8",
+    "version": "1.8.20",
+    "artifacts": {
+      "kotlin-stdlib-jdk8-1.8.20.jar": "e398b67977622718bf18ff99b739c7d9da060f33fb458a2e25203221c16af010",
+      "kotlin-stdlib-jdk8-1.8.20.pom": "3a462214a336e995687769531b1e37b0c81d8e10c9949cd5ea7ae1d7803a0232"
     }
   },
   {
@@ -334,6 +665,32 @@
   },
   {
     "group": "org.jetbrains.kotlinx",
+    "name": "atomicfu",
+    "version": "0.20.2",
+    "artifacts": {
+      "atomicfu-0.20.2.module": "2c995e0e83c583e125706fba3fe85170020d17a88f89d6294a53cd8bd7c4c384",
+      "atomicfu-metadata-0.20.2-all.jar": "2a91f10b826d3febc47c2b664e268615757c311114239787f5dc37481fdec441"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-bom",
+    "version": "1.7.0",
+    "artifacts": {
+      "kotlinx-coroutines-bom-1.7.0.pom": "598dd7da8c60aa4420cbef3eb3ac7050aba38ba627ab9c5d4eefa4b0c810afcc"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-core",
+    "version": "1.7.0",
+    "artifacts": {
+      "kotlinx-coroutines-core-1.7.0.module": "9f6d572ceac56e4578b3887fde12c01ce29889b5cda523ec348a925dcdbea992",
+      "kotlinx-coroutines-core-metadata-1.7.0-all.jar": "4b33fee11240a72d3d6a1ad87687b89c5aa0dfa7c27f486afdaf822e515e6e02"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
     "name": "kotlinx-coroutines-core-jvm",
     "version": "1.5.0",
     "artifacts": {
@@ -342,20 +699,64 @@
     }
   },
   {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-core-jvm",
+    "version": "1.7.0",
+    "artifacts": {
+      "kotlinx-coroutines-core-jvm-1.7.0.jar": "9a32c5ba8abdfa6361778dc12edb56fd7a939720ee5e73f5b18b3b4ab2117f68",
+      "kotlinx-coroutines-core-jvm-1.7.0.module": "345266d1272f9c6f71805e2e6d455ee5ccc568d783275a2b2464439a460273c6"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-debug",
+    "version": "1.7.0",
+    "artifacts": {
+      "kotlinx-coroutines-debug-1.7.0.jar": "58cfc7fb60c926d20878fa725728c5e8033a1d654e5c7eea453f2c4f42fa8c9e",
+      "kotlinx-coroutines-debug-1.7.0.module": "d61740524495d49242a4e97caed24f6c2476bbd9db993ee4be2637bb0241ccd6"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-jdk8",
+    "version": "1.7.0",
+    "artifacts": {
+      "kotlinx-coroutines-jdk8-1.7.0.jar": "db966aa4eb62c077606f6a75f33198aaad9a5453cf36765b50103557ea667376",
+      "kotlinx-coroutines-jdk8-1.7.0.module": "f397a38067a8762e46afd0a639f9df6f583f2b855d295f3312e7f71dd5c1e478"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-test",
+    "version": "1.7.0",
+    "artifacts": {
+      "kotlinx-coroutines-test-1.7.0.module": "cb8fa327f6e095734fc1f8a9f3d7bb19357509b521a80d5ebc6240446a61311d"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-test-jvm",
+    "version": "1.7.0",
+    "artifacts": {
+      "kotlinx-coroutines-test-jvm-1.7.0.jar": "0fdb9fa0bc02ae831cd2a41e4b8f07003b87b44da9f4a7afb3f63db0616c167f",
+      "kotlinx-coroutines-test-jvm-1.7.0.module": "bd4be599da62ee571b7b9d9938309a27ce6447022fb7ae9dcaee7b0f23d5f0bb"
+    }
+  },
+  {
     "group": "org.junit",
     "name": "junit-bom",
-    "version": "5.6.3",
+    "version": "5.8.2",
     "artifacts": {
-      "junit-bom-5.6.3.module": "f37a30b1a76ae37058ebcaac66b9192a480455f4a8f2f285a35153d0578c8faa"
+      "junit-bom-5.8.2.module": "40cfad993fa70ecdf2af74d0c56da1484ee220964be8f932cfe632be9a2733fa"
     }
   },
   {
     "group": "org.junit.jupiter",
     "name": "junit-jupiter-api",
-    "version": "5.6.3",
+    "version": "5.8.2",
     "artifacts": {
-      "junit-jupiter-api-5.6.3.jar": "26a22fe54dca351da9edccbcaa3c3cdcf25862cef3d2e04aa9363029a7beaa9d",
-      "junit-jupiter-api-5.6.3.module": "a516f54464c438801365e5e8baf422b2a6dd256c4a1e1c5948178c9bde48d2b8"
+      "junit-jupiter-api-5.8.2.jar": "1808ee87e0f718cd6e25f3b75afc17956ac8a3edc48c7e9bab9f19f9a79e3801",
+      "junit-jupiter-api-5.8.2.module": "7e9af4dfff6267acddd157d9e11ba0d5dc91b332fa74bc4c65939e4517a1b770"
     }
   },
   {
@@ -363,26 +764,52 @@
     "name": "junit-jupiter-engine",
     "version": "5.6.3",
     "artifacts": {
-      "junit-jupiter-engine-5.6.3.jar": "980fbd50df3eeeb3e6b0868a22977148b3ac78cfae1dff3d593d656f2328dab1",
       "junit-jupiter-engine-5.6.3.module": "c0f6e764d8af73d8a834f8f9ec0fd2a6a6376040b9379718bc48c63781c4a66c"
+    }
+  },
+  {
+    "group": "org.junit.jupiter",
+    "name": "junit-jupiter-engine",
+    "version": "5.8.2",
+    "artifacts": {
+      "junit-jupiter-engine-5.8.2.jar": "753b7726cdd158bb34cedb94c161e2291896f47832a1e9eda53d970020a8184e",
+      "junit-jupiter-engine-5.8.2.module": "a56204c716c2379970ca8e3fe2a72e3a030cd9027328d3ce1457dd10c0150e7e"
     }
   },
   {
     "group": "org.junit.platform",
     "name": "junit-platform-commons",
-    "version": "1.6.3",
+    "version": "1.8.2",
     "artifacts": {
-      "junit-platform-commons-1.6.3.jar": "49be6439351fdb50f0b7827e555acad26504a8084b6bc4019b2e6d73bc9da91a",
-      "junit-platform-commons-1.6.3.module": "a81366ff29d1107f0347f4be1f56e9e2340b186062fac1a18163f05e8269d3a1"
+      "junit-platform-commons-1.8.2.jar": "d2e015fca7130e79af2f4608dc54415e4b10b592d77333decb4b1a274c185050",
+      "junit-platform-commons-1.8.2.module": "342847d3046fea435595692db4f05d5f039e0e1d1e204f4d5755902557082626"
     }
   },
   {
     "group": "org.junit.platform",
     "name": "junit-platform-engine",
-    "version": "1.6.3",
+    "version": "1.8.2",
     "artifacts": {
-      "junit-platform-engine-1.6.3.jar": "de3b86523a65d824fa8e148c5ec510c4e034701b43100773f8c2e35da80ba0ec",
-      "junit-platform-engine-1.6.3.module": "3c248b3eba7baddb0309f9efca135328a9ce70dd32c20d4c1a2998d5afd0a071"
+      "junit-platform-engine-1.8.2.jar": "0b7d000f8c3e8e5f7d6b819649936e7b9938314e87c8f983805218ea57567e59",
+      "junit-platform-engine-1.8.2.module": "eba77b36efdf75a67f46438333825f9e448f550d521e7249d950358580ee636b"
+    }
+  },
+  {
+    "group": "org.junit.platform",
+    "name": "junit-platform-launcher",
+    "version": "1.8.2",
+    "artifacts": {
+      "junit-platform-launcher-1.8.2.jar": "822156409fd83e682e4c5199b3460054299b538a058c2c6d0f5c9b6a5bdb7594",
+      "junit-platform-launcher-1.8.2.module": "e17400ec7be7608c1f888d721b43001e9736c150d40f98c8a0bcda9563d8caeb"
+    }
+  },
+  {
+    "group": "org.junit.platform",
+    "name": "junit-platform-suite-api",
+    "version": "1.8.2",
+    "artifacts": {
+      "junit-platform-suite-api-1.8.2.jar": "94ef343b05b875bb2e4ef94a7cc62e610e1b9cd78247e2b2ec43ed618a1ed0a7",
+      "junit-platform-suite-api-1.8.2.module": "9306a05389fc40d7ad9d0b128a014430e5d1ca574a184aee8d7867b3e8910b7a"
     }
   },
   {
@@ -392,6 +819,15 @@
     "artifacts": {
       "opentest4j-1.2.0.jar": "58812de60898d976fb81ef3b62da05c6604c18fd4a249f5044282479fc286af2",
       "opentest4j-1.2.0.pom": "a96e671816c1ff8803bdec74c9241f025bdfb277da5d2b4ee02266405936f994"
+    }
+  },
+  {
+    "group": "org.opentest4j",
+    "name": "opentest4j",
+    "version": "1.3.0",
+    "artifacts": {
+      "opentest4j-1.3.0.jar": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b",
+      "opentest4j-1.3.0.module": "48bf1d6c8b5dc94f74652bd17900f654deb714350248cf5e8fca27b9090c8e0d"
     }
   }
 ]

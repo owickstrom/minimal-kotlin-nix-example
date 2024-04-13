@@ -23,13 +23,25 @@ in stdenv.mkDerivation {
 
   buildPhase = ''
     runHook preBuild
-    export GRADLE_USER_HOME=$(mktemp -d)
+    export GRADLE_USER_HOME=$TMP/gradle-home
     export NIX_MAVEN_REPO=${mavenRepo}
-    gradle build \
+    gradle build -x test \
       --offline --no-daemon --no-build-cache --info --full-stacktrace \
       --warning-mode=all --parallel --console=plain \
       -PnixMavenRepo=${mavenRepo}
     runHook postBuild
+  '';
+
+  doCheck = true;
+  checkPhase = ''
+    runHook preCheck
+    export GRADLE_USER_HOME=$TMP/gradle-home
+    export NIX_MAVEN_REPO=${mavenRepo}
+    gradle check \
+      --offline --no-daemon --info --full-stacktrace \
+      --warning-mode=all --parallel --console=plain \
+      -PnixMavenRepo=${mavenRepo}
+    runHook postCheck
   '';
 
   installPhase = ''
